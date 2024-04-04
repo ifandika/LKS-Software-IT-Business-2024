@@ -1,8 +1,19 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
-    <style name="Base.Theme.LKSFinalCRUDRetrofit" parent="Theme.Material3.DayNight.NoActionBar">
+    <style name="Base.Theme.LKSFinalCRUDRetrofit" parent="Theme.MaterialComponents.Light.NoActionBar">
         <!-- Customize your light theme here. -->
         <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="colorPrimary">@color/white</item>
+        <item name="colorPrimaryVariant">@color/blue_main</item>
+        <item name="colorOnPrimary">@color/blue_main</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/blue_main</item>
+        <item name="colorSecondaryVariant">@color/white</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <!--        <item name="color"-->
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+
     </style>
 
     <style name="Theme.LKSFinalCRUDRetrofit" parent="Base.Theme.LKSFinalCRUDRetrofit" />
